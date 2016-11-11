@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
 		<title></title>
-		<script data-main = "js/walkapp/citywalk" src="js/lib/require.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/citywalk.css"/>
+		<script data-main = "js/app/world.js" src="js/lib/require.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 	</head>
 	<body>
@@ -58,77 +58,53 @@
 			</ul>
 		</div>
 		<div id="search">
-			<img src="img/banner.gif"/>
-			<img src="img/icon14.gif"/>
-			<input type="text" placeholder="搜索国家、城市、商品"/>
-			<div>
-				<ul>
-					<li>
-						<a href="http://www.qyer.com/u/lm-order">我的订单</a>
-					</li>
-					<li>|</li>
-					<li>
-						<a href="http://www.qyer.com/u/lastmin">我的收藏</a>
-					</li>
-				</ul>
+			<input type="text" name="search" placeholder="搜索国家、地区、城市、商品"/>
+			<div class="find">
+				<img src="img/icon6.gif"/><a href="http://www.baidu.com">搜索</a>
 			</div>
-		</div>
-		<div id="nav">
-			<div id="menu">
-				<a>热门目的地∨</a>
-				<span>|</span>
-				<ul>
-					
-				</ul>
-			</div>
-			<ul></ul>
-			
-		</div>
-		<div id="img">
-			<img src="img/pict.jpg"/>
 		</div>
 		
-<!--第五行——所在城市-->
-	<div id="main1">
-		<ul>
-			<li>所有城市</li>
-			<li><a href="#">全部</a></li>
-			<li><a href="#">上海</a></li>
-			<li><a href="#">北京</a></li>
-			<li><a href="#">京都</a></li>
-			<li><a href="#">广州</a></li>
-			<li><a href="#">东京</a></li>
-			<li><a href="#">布拉格</a></li>
-			<li><a href="#">巴塞罗那</a></li>
-			<li><a href="#">纽约</a></li>
-			<li><a href="#">巴黎</a></li>
-			<li><a href="#">汉堡</a></li>
-			<li><a href="#">马德里</a></li>
-			<li><a href="#">米兰</a></li>
-			<li><a href="#">佛罗伦萨</a></li>
-			<li><a href="#">台北</a></li>
-			<li><a href="#">香港</a></li>
-			<li><a href="#">博洛尼亚</a></li>
-			<li><a href="#">伦敦</a></li>
-		</ul>
-	</div>
-	
-	<!--第六行——综合排序-->
-	<div id="main2">
-		<ul>
-			<li>综合排序</li>
-			<li>销量</li>
-			<li><input type="checkbox" />今日新品</li>
-		</ul>
-	</div>
-
-		<div id="list">
-			<span>1页</span>
-			<span>2页</span>
+		<div id="nav">
+			<ul></ul>
 		</div>
-
-
-<!--页脚上-->
+		<div id="banner">
+			<div id="move">
+				
+			</div>
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div id="menu">
+			<ul>
+				
+			</ul>
+		</div>
+		<div id="banner2">
+			<img src="img/banner1.jpg"/>
+			<img src="img/banner2.jpg"/>
+			<img src="img/banner3.jpg"/>
+			<img src="img/banner4.jpg"/>
+		</div>
+		<div id="sell">
+			<div id="walk">
+				<p><span>机酒自由行</span>精选全球最优质机票、酒店、邮轮等旅行产品</p>
+				<div class="div2">
+					<p>查看更多<br />机酒自由行产品</p>
+					<img src="img/icon13.gif" />
+					<ul>
+						<li><a href="#">机票</a></li>
+						<li><a href="#">酒店</a></li>
+						<li><a href="#">机+酒</a></li>
+						<li><a href="#">邮轮</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--页脚上-->
 	<div id="footer1">
 		<div class="footer_content">
 			<!--机场自由行-->
@@ -206,6 +182,6 @@
 			</div>
 		</div>
 	</div>
-
 	</body>
+	
 </html>

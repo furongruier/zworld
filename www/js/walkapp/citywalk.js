@@ -1,5 +1,5 @@
 requirejs(['../lib/common'],function(common){
-	requirejs(['jquery','app/search','app/ajax','app/ajax2','walkapp/list'],function($,search,nav,menu,list){
+	requirejs(['jquery','app/search','app/ajax','app/ajax2','walkapp/list','app/ajax5'],function($,search,nav,menu,list,sear){
 		var root=document.querySelector('#nav>ul');
 		nav(root);
 		var find=document.querySelector('#top .right li:first-of-type');
@@ -8,6 +8,8 @@ requirejs(['../lib/common'],function(common){
 		menu(left);
 		var listt=document.querySelector('#list');
 		list(listt);
+		var serh=document.querySelector('#search');
+		sear(serh);
 		
 	})
 })
